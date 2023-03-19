@@ -1,0 +1,6 @@
+*.o
+*.d
+*.out
+*.log
+*.tmp
+accent_menu_X11
