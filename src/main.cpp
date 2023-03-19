@@ -68,6 +68,8 @@ int main(int ac, char** av)
 		return -1;
 	}
 
+    close(manager->pip[0]);
+    close(manager->pip[1]);
 	delete manager;
 	return 0;
 }
