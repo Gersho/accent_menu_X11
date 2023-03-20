@@ -13,7 +13,7 @@ $(NAME):		$(OBJS)
 				$(CC) $(CFLAGS) $(SRCS) -lstdc++ -lX11 -o $(NAME)
 
 run:			all
-				./$(NAME) accent_menu_X11.exemple.conf
+				./$(NAME) accent_menu_X11.example.conf
 
 clean:
 				$(RM) $(OBJS)
